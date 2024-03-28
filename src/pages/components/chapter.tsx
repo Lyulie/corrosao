@@ -6,7 +6,7 @@ export default function Chapters() {
             <ul className='flex flex-col gap-4 text-2xl'>
                 <li>
                     <Link className='hover:text-blue-900' href="/pdf/Capítulo 1 - Introdução.pdf" target="blank">
-                        Capitulo 1 - Introdução
+                        Capítulo 1 - Introdução
                     </Link>
                 </li>
                 <li>

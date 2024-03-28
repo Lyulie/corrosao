@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div className="
-      flex 
+      flex
       md:max-h-[700px]
       min-h-screen
       min-w-[540px] 
@@ -30,13 +30,13 @@ export default function Home() {
       justify-between mr-0">
       
       <Head>
-        <title>Corrosão - Introdução e Avaliação</title>
+        <title>Corrosão - Introdução e Avaliação - Enori Gemelli</title>
       </Head>
       
       <Header />
       
       {chapterOpen
-        ?<Chapters />
+        ? <Chapters />
         : <Content />
       }
 

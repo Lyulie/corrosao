@@ -8,19 +8,13 @@ export default function Content() {
             flex-col 
             bg-sea"
         >
-            <div className="
-                flex
-                w-full h-14 
-                bg-blue-300 
-                rounded-bl-full 
-                rounded-br-full
-            "></div>
+            <div className="flex w-full oval self-center bg-blue-300 mb-4 rotate-180"></div>
 
             <div className="flex justify-center flex-col items-center">
                 <h1 className='
                   text-6xl 
                   text-black
-                '>Corrosão</h1>
+                '>Corrosão:</h1>
 
                 <p className='text-4xl'>Introdução e Avaliação</p>
 
@@ -30,14 +24,7 @@ export default function Content() {
                 '>2024</p>
             </div>
 
-            <div className="
-              flex
-              w-full 
-              h-14 
-              bg-blue-300 
-              rounded-tr-full 
-              rounded-tl-full
-            "></div>
+            <div className="flex w-full oval self-center bg-blue-300 mt-4"></div>
         </main>
     )
 }

@@ -6,7 +6,7 @@ export default function Header() {
         <div className="
             flex 
             w-full 
-            h-full 
+            h-56
             align-center 
             justify-start 
             flex-col
@@ -64,8 +64,8 @@ export default function Header() {
                     text-2xl
                 '>
                     <a href="/pdf/Autor.pdf" target="_blank">Autor</a>
-                    <a href="/pdf/Citação.pdf" target="_blank">Citações</a>
-                    <a href="/pdf/Normas%20ABNT%20usadas.pdf" target="_blank">Norma ABNT apresentada</a>
+                    <a href="/pdf/Citação.pdf" target="_blank">Citação</a>
+                    <a href="/pdf/Normas%20ABNT%20usadas.pdf" target="_blank">Normas ABNT apresentadas</a>
                 </div>
             </div>
         </div>
