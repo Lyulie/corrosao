@@ -56,11 +56,11 @@ export default function Header() {
                 <div className='
                     flex 
                     w-full 
-                    h-20 
+                    h-20
+                    lg:px-20
+                    px-5
                     justify-between 
-                    items-center 
-                    pl-20 
-                    pr-20 
+                    items-center
                     text-2xl
                 '>
                     <a href="/pdf/Autor.pdf" target="_blank">Autor</a>

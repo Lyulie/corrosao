@@ -20,8 +20,8 @@ export default function Footer({ onLinkClick }: FooterProps) {
                 h-20 
                 justify-between 
                 items-center 
-                pl-20 
-                pr-20 
+                lg:px-20
+                px-5
                 text-2xl
             '>
                 <a href="/pdf/Prefácio.pdf" target="_blank">Prefácio</a>
@@ -43,6 +43,8 @@ export default function Footer({ onLinkClick }: FooterProps) {
                     self-center  
                     w-full 
                     justify-center
+                    lg:px-10
+                    px-5
                 '>
                     Centro de Ciências Tecnológicas (CCT) - Rua Paulo Malschitzki, 200 - Zona Industrial Norte - 89219-710 – Joinville/SC
                 </p>
