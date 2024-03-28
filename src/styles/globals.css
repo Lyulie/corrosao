@@ -4,7 +4,7 @@
 
 .bg-sea {
   flex-grow: 1;
-  background-image: url('/sea-horizon2.jpg');
+  background-image: url('/sea-horizon2.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
 
 .bg-sea0 {
   flex-grow: 1;
-  background-image: url('/sea-horizon3.jpg');
+  background-image: url('/sea-horizon3.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
