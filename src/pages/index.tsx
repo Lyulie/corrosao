@@ -23,8 +23,8 @@ export default function Home() {
   return (
     <div className="
       flex 
-      min-h-[700px]
-      max-h-screen
+      md:max-h-[700px]
+      min-h-screen
       min-w-[540px] 
       flex-col items-center 
       justify-between mr-0">
