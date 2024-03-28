@@ -48,7 +48,7 @@ export default function Header() {
                         self-center 
                         font-bold 
                         text-2xl
-                    '>Centro de Ciências e Tecnológicas</h1>
+                    '>Centro de Ciências Tecnológicas</h1>
 
 
                 </div>

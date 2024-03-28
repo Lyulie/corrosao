@@ -4,11 +4,24 @@
 
 .bg-sea {
   flex-grow: 1;
-  background-image: url('/sea-horizon0.jpg');
+  background-image: url('/sea-horizon2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+}
+
+.bg-sea0 {
+  flex-grow: 1;
+  background-image: url('/sea-horizon3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.text-custom-shadow {
+  text-shadow: 1px 1px 1px rgb(0,0,0,0.2)
 }
 
 .oval {

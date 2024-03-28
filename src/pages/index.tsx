@@ -1,12 +1,9 @@
-import { Inter } from "next/font/google";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Content from "./components/content";
 import Chapters from "./components/chapter";
 import { useEffect, useState } from "react";
 import Head from "next/head";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const [chapterOpen, setChapterOpen] = useState<boolean>(false)
@@ -30,7 +27,7 @@ export default function Home() {
       justify-between mr-0">
       
       <Head>
-        <title>Corrosão - Introdução e Avaliação - Enori Gemelli</title>
+        <title>Corrosão: Introdução e Avaliação - Enori Gemelli</title>
       </Head>
       
       <Header />
