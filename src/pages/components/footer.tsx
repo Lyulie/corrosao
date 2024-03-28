@@ -8,7 +8,8 @@ export default function Footer({ onLinkClick }: FooterProps) {
 
     return (
         <footer className="
-            flex 
+            absolute
+            bottom-0
             w-full 
             h-40 
             flex-col
