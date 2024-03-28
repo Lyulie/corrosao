@@ -1,0 +1,73 @@
+import Image from "next/image"
+
+export default function Header() {
+
+    return (
+        <div className="
+            flex 
+            w-full 
+            h-full 
+            align-center 
+            justify-start 
+            flex-col
+            bg-blue-50"
+        >
+
+            <div className="
+            flex 
+            w-full 
+            flex-col
+            ">
+                <div className="
+                    flex 
+                    w-full 
+                    h-36 
+                    border-b-2
+                    border-blue-100
+                    justify-center
+                    lg:justify-start
+                ">
+                    <Image
+                        className="
+                            lg:ml-10
+                            object-cover 
+                            w-20 
+                            h-20 
+                            flex 
+                            self-center 
+                            justify-center
+                        "
+                        src="/udesc.png"
+                        alt="minha imagem"
+                        width={140}
+                        height={0}
+                    />
+
+                    <h1 className='
+                        flex 
+                        self-center 
+                        font-bold 
+                        text-2xl
+                    '>Centro de Ciências e Tecnológicas</h1>
+
+
+                </div>
+
+                <div className='
+                    flex 
+                    w-full 
+                    h-20 
+                    justify-between 
+                    items-center 
+                    pl-20 
+                    pr-20 
+                    text-2xl
+                '>
+                    <a href="/pdf/Autor.pdf" target="_blank">Autor</a>
+                    <a href="/pdf/Citação.pdf" target="_blank">Citações</a>
+                    <a href="/pdf/Normas%20ABNT%20usadas.pdf" target="_blank">Norma ABNT apresentada</a>
+                </div>
+            </div>
+        </div>
+    )
+}
