@@ -4,6 +4,7 @@ import Footer from "./components/footer";
 import Content from "./components/content";
 import Chapters from "./components/chapter";
 import { useEffect, useState } from "react";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,10 @@ export default function Home() {
       min-w-[540px] 
       flex-col items-center 
       justify-between mr-0">
+      
+      <Head>
+        <title>Corrosão - Introdução e Avaliação</title>
+      </Head>
       
       <Header />
       
