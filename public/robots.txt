@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://www.livrocorrosao.com.br/sitemap.xml
