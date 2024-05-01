@@ -27,7 +27,7 @@ export default function Home() {
       justify-between mr-0">
       
       <Head>
-        <title>Corrosão: Introdução e Avaliação - Enori Gemelli</title>
+        <title>Livro Corrosão: Introdução e Avaliação - Enori Gemelli</title>
       </Head>
       
       <Header />
