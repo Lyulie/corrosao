@@ -14,7 +14,7 @@ export default function Content() {
                 <h1 className='
                   text-6xl 
                   text-black
-                '>Livro Corrosão:</h1>
+                '>Corrosão:</h1>
 
                 <p className='text-4xl'>Introdução e Avaliação</p>
 

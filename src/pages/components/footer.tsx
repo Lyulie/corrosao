@@ -33,11 +33,25 @@ export default function Footer({ onLinkClick }: FooterProps) {
 
             <div className='
                 flex 
+                flex-col
                 w-full 
-                h-20 
+                h-28
                 border-t-2
                 border-blue-100
             '>
+                <p className='
+                mt-4
+                    flex 
+                    self-center  
+                    w-full 
+                    justify-center
+                    lg:px-10
+                    px-5
+                    font-bold
+                    text-center
+                '>
+                 Livro de corrosão - Enori Gemelli
+                </p>
                 <p className='
                     flex 
                     self-center  
@@ -45,8 +59,10 @@ export default function Footer({ onLinkClick }: FooterProps) {
                     justify-center
                     lg:px-10
                     px-5
+                    text-center
+                    mb-4
                 '>
-                    Centro de Ciências Tecnológicas (CCT) - Rua Paulo Malschitzki, 200 - Zona Industrial Norte - 89219-710 – Joinville/SC
+                    Corrosão de materiais metálicos em meios artificiais ou naturais, corrosão sob tensão e corrosão-fadiga de materiais metálicos, corrosão induzida por microrganismos, corrosão de materiais cimentícios, degradação química de polímeros.
                 </p>
             </div>
         </footer>
