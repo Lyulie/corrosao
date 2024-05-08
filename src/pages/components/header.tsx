@@ -43,12 +43,12 @@ export default function Header() {
                         height={0}
                     />
 
-                    <h1 className='
+                    <p className='
                         flex 
                         self-center 
                         font-bold 
                         text-2xl
-                    '>Centro de Ciências Tecnológicas</h1>
+                    '>Centro de Ciências Tecnológicas</p>
 
 
                 </div>
