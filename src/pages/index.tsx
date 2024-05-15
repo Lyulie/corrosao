@@ -29,6 +29,7 @@ export default function Home() {
       <Head>
         <title>Livro Corrosão: Introdução e Avaliação - Enori Gemelli, 2024</title>
         <meta name="description" content="Corrosão de materiais metálicos, corrosão induzida por microrganismos, corrosão de materiais cimentícios, degradação química de polímeros." key="desc" />
+        <meta name="robots" content="INDEX, FOLLOW" />
       </Head>
       
       <Header />
