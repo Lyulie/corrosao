@@ -8,7 +8,7 @@ export default function Content() {
             flex-col 
             bg-sea"
         >
-            <div className="flex w-full oval self-center bg-blue-300 mb-4 rotate-180"></div>
+            <div className="flex w-full oval self-center bg-blue-50 mb-4 rotate-180 border-b-2 border-gray-50 border-opacity-50"></div>
 
             <div className="flex justify-center flex-col items-center">
                 <h1 className='
@@ -24,7 +24,7 @@ export default function Content() {
                 '>2024</p>
             </div>
 
-            <div className="flex w-full oval self-center bg-blue-300 mt-4"></div>
+            <div className="flex w-full oval self-center bg-blue-50 mt-4 border-b-2 border-gray-50 border-opacity-50"></div>
         </main>
     )
 }

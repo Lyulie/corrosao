@@ -6,7 +6,7 @@ export default function Header() {
         <div className="
             flex 
             w-full 
-            h-56
+            h-40
             align-center 
             justify-start 
             flex-col
@@ -21,7 +21,7 @@ export default function Header() {
                 <div className="
                     flex 
                     w-full 
-                    h-36 
+                    h-20
                     border-b-2
                     border-blue-100
                     justify-center
@@ -57,7 +57,7 @@ export default function Header() {
                     flex 
                     w-full 
                     h-20
-                    lg:px-20
+                    lg:px-40
                     px-5
                     justify-between 
                     items-center

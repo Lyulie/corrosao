@@ -31,3 +31,7 @@
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}

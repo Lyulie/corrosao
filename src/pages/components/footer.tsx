@@ -20,7 +20,7 @@ export default function Footer({ onLinkClick }: FooterProps) {
                 h-20 
                 justify-between 
                 items-center 
-                lg:px-20
+                lg:px-40
                 px-5
                 text-2xl
             '>
@@ -35,7 +35,7 @@ export default function Footer({ onLinkClick }: FooterProps) {
                 flex 
                 flex-col
                 w-full 
-                h-28
+                h-20
                 border-t-2
                 border-blue-100
             '>
