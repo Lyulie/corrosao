@@ -10,7 +10,8 @@ export default function Footer({ onLinkClick }: FooterProps) {
         <footer className="
             flex
             w-full 
-            h-40 
+            h-60
+            lg:h-40
             flex-col
             bg-blue-50
         ">
@@ -34,8 +35,11 @@ export default function Footer({ onLinkClick }: FooterProps) {
             <div className='
                 flex 
                 flex-col
-                w-full 
-                h-20
+                text-center
+                justify-center
+                w-full
+                lg:h-20
+                h-40
                 border-t-2
                 border-blue-100
             '>
@@ -54,8 +58,9 @@ export default function Footer({ onLinkClick }: FooterProps) {
                 </p>
                 <p className='
                     flex 
-                    self-center  
-                    w-full 
+                    self-center
+                    w-full
+                    h-fit
                     justify-center
                     lg:px-10
                     px-5

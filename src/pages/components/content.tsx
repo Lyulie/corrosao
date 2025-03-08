@@ -1,30 +1,23 @@
+import Image from 'next/image';
+
+
 export default function Content() {
     return (
-        <main className="
-            flex
-            h-[540px] 
-            w-full 
-            justify-between 
-            flex-col 
-            bg-sea"
-        >
-            <div className="flex w-full oval self-center bg-blue-50 mb-4 rotate-180 border-b-2 border-gray-50 border-opacity-50"></div>
+        <main className="relative flex flex-col h-[540px] w-full bg-sea">
 
-            <div className="flex justify-center flex-col items-center">
-                <h1 className='
-                  text-6xl 
-                  text-black
-                '>Corrosão:</h1>
-
-                <p className='text-4xl'>Introdução e Avaliação</p>
-
-                <p className='
-                  text-4xl 
-                  mt-12
-                '>2024</p>
+            <div className="absolute top-0 left-0 w-full h-20">
+                <Image src="/curva.svg" alt="Curva Topo" layout="fill" objectFit="cover" />
+            </div>
+    
+            <div className="flex flex-grow justify-center items-center flex-col text-center z-10">
+                <h1 className="text-6xl text-black">Corrosão:</h1>
+                <p className="text-4xl">Introdução e Avaliação</p>
+                <p className="text-4xl mt-12">2024</p>
             </div>
 
-            <div className="flex w-full oval self-center bg-blue-50 mt-4 border-b-2 border-gray-50 border-opacity-50"></div>
+            <div className="absolute bottom-0 left-0 w-full h-20 rotate-180">
+                <Image src="/curva.svg" alt="Curva Fundo" layout="fill" objectFit="cover" />
+            </div>
         </main>
-    )
+    );
 }
