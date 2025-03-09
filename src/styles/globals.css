@@ -4,7 +4,7 @@
 
 .bg-sea {
   flex-grow: 1;
-  background-image: url('/sea-horizon4.jpeg');
+  background-image: url('/oceano.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
 
 .bg-sea0 {
   flex-grow: 1;
-  background-image: url('/sea-horizon5.jpeg');
+  background-image: url('/oceano-opacity.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,4 +34,16 @@
 
 body {
   font-family: 'Times New Roman', Times, serif;
+}
+
+.curva-top {
+  height: 40px;  /* Altura maior para criar a curva */
+  border-radius: 0 0 50% 50%;  /* Criando a curva */
+  overflow: hidden;  /* Escondendo a parte reta indesejada */
+}
+
+.curva-bottom {
+  height: 40px;
+  border-radius: 50% 50% 0 0;
+  overflow: hidden;
 }
