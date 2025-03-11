@@ -14,7 +14,7 @@ export default function Content() {
         />
       </div>
 
-      <div className="flex flex-grow justify-center items-center flex-col text-center z-10 py-20">
+      <div className="flex flex-grow justify-center items-center flex-col text-center z-10 pt-28 pb-12">
         <h1 className="text-6xl text-black">Corrosão:</h1>
         <p className="text-4xl">Introdução e Avaliação</p>
       </div>
@@ -22,7 +22,7 @@ export default function Content() {
       <div className="flex flex-grow justify-start items-center flex-col text-start z-10 pb-32">
         <p className="text-4xl mt-12">2024</p>
       </div>
-      
+
       <div className="absolute bottom-0 left-0 w-full h-28 overflow-visible">
         <Image
           src="/curva-bottom.svg"
