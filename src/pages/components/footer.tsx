@@ -30,6 +30,7 @@ export default function Footer({ onLinkClick }: FooterProps) {
                 <a 
                     href="" 
                     onClick={onLinkClick}>Capítulos</a>
+                <a href="/pdf/Livro Corrosão - Enori Gemelli 2024.pdf" target="_blank">PDF Livro</a>
             </div>
 
             <div className='
